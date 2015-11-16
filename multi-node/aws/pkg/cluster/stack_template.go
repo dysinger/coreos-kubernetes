@@ -569,7 +569,7 @@ func StackTemplateBody(defaultArtifactURL string) (string, error) {
 
 	par[parNameWorkerRootVolumeSize] = map[string]interface{}{
 		"Type":        "String",
-		"Default":     "30",
+		"Default":     "256",
 		"Description": "Worker root volume size (GiB)",
 	}
 
